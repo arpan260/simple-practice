@@ -1,0 +1,463 @@
+body {
+    margin: 0 auto;
+}
+
+
+
+
+/* Fixed header css */
+#headerwrapper {
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: 92px;
+    background-color: #F5FFFA;
+}
+
+.codenumber {
+    color: silver;
+
+}
+.navmenu>ul>li>a{
+    display: inline-block;
+    text-decoration: none; !important;
+    color: #000000;
+    font-size: 1em;
+}
+.navmenu > ul > li > a:hover {
+    text-decoration: none;
+}
+.navmenu > ul > li.active > a, nav.main > ul > li.parent-active a{
+     border-bottom:1px solid #000;
+}
+
+
+
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    left: 449px;
+    bottom: 24px;
+    padding-left: 42px;
+    padding-right: 24px;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.navmenu {
+    
+    position: relative;
+    right: 80px;
+    padding-left: 49px;
+}
+
+
+.paragraph {
+    clear: both;
+    height: 200px;
+    margin-top: 100px;
+}
+
+h1 {
+    width: 150px;
+    position: relative;
+    top: 21px;
+    font-size: 26px;
+    
+}
+
+.header {
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    margin-left: 53px;
+    font-size: 13px;
+    width: 150px;
+}
+
+
+/* End of fixedheader*/
+/* Div images */
+
+
+
+
+.images{
+
+     margin-top: 92px;
+    background: blue;
+    
+    width:1260px;
+    height: 858px;
+}
+
+.leftcontent{
+   
+    width: 620px;
+    float: left;
+    
+    
+    
+}
+
+.mushroom{
+    margin-top: -4px;
+}
+
+
+
+
+.rightcontent{
+  
+    width: 640px;
+    float: right;
+
+   
+  
+}
+
+.leftcontent1{
+    float:left;
+}
+
+.rightcontent1{
+    float: right;
+}
+
+
+
+.images2{
+
+    background: white;
+   
+    margin:0;
+    padding: 0 ;
+    width:1260px;
+    height: 862px;
+}
+
+.leftcontent1{
+   
+    width: 620px;
+    float: left;
+    
+    
+    
+}
+
+
+
+
+.rightcontent1{
+  
+    width: 640px;
+    float: right;
+
+   
+  
+}
+
+
+.gambier{
+    margin-top: -4px;
+}
+
+
+
+
+
+
+.boxparagraph{
+    height: 377px;
+    width: 643px;
+    margin-top: -4px;
+}
+
+span.boxheader {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.boxparagraph p {
+    
+     font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    margin-top: 52px;
+    width: 523px;
+    font-size: 1em;
+    
+    line-height: 35px;
+    letter-spacing: normal;
+    margin-left: 44px;
+}
+
+
+
+.image3{
+
+      background: red;
+   
+    margin:0;
+    padding: 0 ;
+    width:1260px;
+    height: 427px;
+}
+
+.walford{
+    float: right;
+    margin-top: -4px;
+}
+
+
+.maxton{
+    float: left;
+    margin-top: -4px;
+}
+
+
+
+
+
+
+
+
+.image7 {
+    margin-top: -4px;
+    float: right;
+}
+
+.image8 {
+    float: right;
+    margin-top: -4px;
+    
+}
+
+/* End of div images */
+/* Three column page detail */
+.column-wrapper {
+    width: 1260px;
+    height: 469px;
+    margin-top: -5px;
+    float: right;
+}
+
+.column-right {
+    width: 320px;
+    height: 440px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 62px;
+}
+
+.column-left {
+    width: 339px;
+    height: 440px;
+    float: right;
+    margin-top: 1px;
+    margin-right: 60px;
+    margin-left: -35px;
+}
+
+.column-center {
+    width: 346px;
+    height: 440px;
+    float: right;
+    margin-top: 1px;
+    margin-right: 100px;
+}
+
+/* rightcard css */
+.rightarticleheader {
+    font-size: 13px;
+    font-weight: bolder;
+    color: black;
+}
+
+span.rightcard {
+    width: 318px;
+}
+
+.rightcard p {
+    line-height: 27px;
+    font-size: 0.91em;
+    color:#545454;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+}
+
+.rightcard {
+    margin-top: 45px;
+}
+
+/* End right card here*/
+/* centercard css*/
+.centercard {
+    margin-top: 52px;
+}
+
+.centercard p {
+    line-height: 27px;
+    font-size: 0.91em;
+    color:#545454;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    width: 330px;
+}
+
+span.centercard {
+    font-size: 17px;
+    line-height: 26px;
+    width: 318px;
+    letter-spacing: normal;
+}
+
+.centerarticleheader {
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+/* End centercard here*/
+/* leftcard css*/
+.leftcard {
+    margin-top: 60px;
+}
+
+.leftcard p {
+    font-size: 0.91em;
+    color:#545454;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.leftarticleheader {
+    font-size: 13px;
+    color:black;
+    width: 351px;
+    letter-spacing: normal;
+    font-weight: bolder;
+}
+
+span.service {
+    font-size: 13px;
+}
+
+
+/* End leftcard here*/
+/* clearfix-container*/
+.clearfix-container {
+    float: left;
+    border: 1px solid;
+    height: 186px;
+    width: 1263px;
+    background-color: #231f20;
+}
+
+.after {
+    width: 277px;
+    height: 70px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 332px;
+    margin-top: 68px;
+}    
+
+
+.before {
+    width: 277px;
+    height: 70px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    float: right;
+    text-align: center;
+    margin-right: 323px;
+    margin-top: -72px;
+}
+
+.before p{
+ font-family: 'Lato',sans-serif;
+    font-weight: 200;  
+      color: #fff;  
+      margin-top: 29px;
+      font-size: 15px;
+}
+.after p{
+     font-family: 'Lato',sans-serif;
+    font-weight: 200;
+         color: #fff; 
+        margin-top: 29px;
+        font-size: 15px;
+}
+.footer{
+    height: 306px;
+    width: 1265px;
+    float: left;
+
+}
+
+.footerheader{
+    position: relative;
+    top: 33px;
+    margin-left: 53px;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footernav{ 
+    height: 50px;
+    width:190px;
+    
+    display: inline;
+
+}
+
+ol li{
+    top: 70px;
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    padding-right: 19px;
+    color: rgba(0,0,0,.5);
+    font-size: 0.9em;
+}
+
+
+.logos{
+
+    float: right;
+    display: flex;
+    padding: 2px;  
+
+}
+.logo1{
+    padding: 28px;
+
+}
+.logo2{
+    padding-right: 28px;
+}
+.logo3{
+    padding-left: 0px;
+    padding:28px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of column page */

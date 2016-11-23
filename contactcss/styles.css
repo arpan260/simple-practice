@@ -1,0 +1,279 @@
+
+body {
+    margin: 0 auto;
+}
+
+/* Fixed header css */
+#headerwrapper {
+    position: fixed;
+    top: 0;
+    width: 1265px;
+    height: 92px;
+    background-color: #F5FFFA;
+}
+
+.codenumber {
+    color: silver;
+
+}
+.navmenu>ul>li>a{
+    display: inline-block;
+    text-decoration: none; !important;
+    color: #000000;
+    font-size: 1.1em;
+}
+.navmenu > ul > li > a:hover {
+    text-decoration: none;
+}
+.navmenu > ul > li.active > a, nav.main > ul > li.parent-active a{
+     border-bottom:1px solid #000;
+}
+
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    left: 449px;
+    bottom: 24px;
+    padding-left: 42px;
+    padding-right: 24px;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.navmenu {
+    
+    position: relative;
+    right: 80px;
+    padding-left: 49px;
+}
+
+
+
+h1 {
+    width: 150px;
+    position: relative;
+    top: 21px;
+    font-size: 26px;
+    
+}
+
+.header {
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    margin-left: 53px;
+    font-size: 13px;
+    width: 150px;
+}
+
+/* End of fixedheader*/
+
+
+
+
+.contactwrapper{
+    width: 1266px;
+    height: 544.016px;
+    background: #231f20;
+  
+   
+}
+.contactcontent{
+    
+    width: 400px;
+    height: 400px;
+    margin-top: 94px;
+}
+
+
+
+h4{    font-weight: bolder;
+    font-size: 14px;
+    width: 250px;
+    margin-left: 57px;
+    padding-top: 18px;
+}
+
+
+
+.formcontainer{
+    height: 244px;
+    width: 576px;
+    
+    margin-left: 55px;
+
+}
+
+.contactcontent h4{ 
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    font-size: 1.6em;
+    color:#fff;
+    width: 250px;
+    margin-left: 57px;
+    padding-top: 232px
+
+}
+
+ 
+
+
+
+
+.form1{
+    font-size: 14px;
+    height: 40px;
+    width: 269px;
+     
+
+}
+section{  
+     letter-spacing: 1px; 
+     line-height: 40px;
+   font-family: 'Lato',sans-serif;
+    font-weight: 100;
+     font-size: 24px;
+    color: #a9a9a9;
+    margin-left: 57px;
+    margin-top: -24px;
+    }
+
+.form2{font-size: 14px;
+    height: 40px;
+    width: 269px;
+    
+    float: right;
+    
+ 
+
+}
+
+
+.form3{margin-top: 30px;
+ font-size: 14px;
+height: 40px;
+    width: 269px;
+    
+
+}
+
+.form4{margin-top: 30px;
+    float: right;
+  height: 40px;
+    width: 269px;
+    font-size: 14px;
+}
+
+
+.form5{
+ margin-top: 30px;
+ height: 40px;
+    width: 269px;
+    font-size: 14px;
+
+}
+
+
+.form6{margin-top: 30px;
+     float: right;
+    height: 40px;
+    width: 269px;
+    font-size: 14px;
+
+}
+
+
+textarea{margin-top: -20px;
+    font-size: 14px; 
+
+    margin-left: 55px; 
+
+    width: 572px;
+    height: 126px;}
+
+
+
+
+
+.textarea1{ margin-top: 40px;}
+
+
+
+#submit{
+    margin-top: 20px;
+   margin-left: 55px;
+    font-size: 15px;
+    height: 48px;
+    width: 269px;
+    border: 1px solid;
+    background: white;
+}
+
+
+.footer{
+    margin-top: 90px;
+    height: 306px;
+    width: 1265px;
+    float: left;
+
+}
+
+.footerheader{
+    position: relative;
+    top: 33px;
+    margin-left: 53px;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footernav{ 
+    height: 50px;
+    width:190px;
+    
+    display: inline;
+
+}
+
+ol li{
+    top: 70px;
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    padding-right: 19px;
+    color: rgba(0,0,0,.5);
+    font-size: 0.9em;
+}
+
+
+.logos{
+
+    float: right;
+    display: flex;
+    padding: 2px;  
+
+}
+.logo1{
+    padding: 28px;
+
+}
+.logo2{
+    padding-right: 28px;
+}
+.logo3{
+    padding-left: 0px;
+    padding:28px;}
+
+
+
+
+
+
+
+
+
+
+    
+
